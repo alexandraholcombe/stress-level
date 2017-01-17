@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="css/bootstrap.css" media="screen" title="no title" charset="utf-8">
+  <link rel="stylesheet" href="css/styles.css" media="screen" title="no title" charset="utf-8">
+  <script src="js/jquery-3.1.1.js" charset="utf-8"></script>
+  <script src="js/scripts.js" charset="utf-8"></script>
+  <title>Stress Test</title>
+</head>
+<body>
+  <div class="container">
+    <div class="jumbotron">
+      <h1>Wellness test</h1>
+    </div>
+
+    <form id="stress-survey">
+      <div class="form-group">
+        <p>In the past week, what have you experienced?</p>
+        <input type="checkbox" name="stress-factors" value="Loss of sleep">Loss of sleep.<br>
+        <input type="checkbox" name="stress-factors" value="Dry mouth">Dry mouth.<br>
+        <input type="checkbox" name="stress-factors" value="Over-reaction">Over-reaction<br>
+        <input type="checkbox" name="stress-factors" value="Trembling">Trembling.<br>
+        <input type="checkbox" name="stress-factors" value="Agitation">Agitation.<br>
+        <input type="checkbox" name="stress-factors" value="Panic attack">Panic attack.<br>
+      </div>
+
+      <button type="submit" class="btn btn-warning btn-large">Submit survey</button>
+    </form>
+    <span id="stress-factors-responses">
+      <p><b>In the past week, you have experienced these:</b></p>
+    </span>
+    <br>
+    
+  </div>
+</body>
+</html>
